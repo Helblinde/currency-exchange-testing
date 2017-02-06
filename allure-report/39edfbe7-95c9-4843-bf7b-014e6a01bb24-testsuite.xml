@@ -1,0 +1,72 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1486405196074" stop="1486405238841">
+  <name>currency_exchange_testing</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1486405196074" status="passed" stop="1486405209777">
+      <description>Main test method, that is parametrized with
+    different sets of values from csv file;
+    Input values: 'from_currency' that is our cash currency,
+    'to_currency' that is the currency we want to have,
+    'value' that is our cash amount.
+    Expected result: all elements are found on the page,
+    cash value after suggested exchange matches the calculations
+    made using exchange rates on the page.
+    </description>
+      <name>test_currency_exchange[USD-RUR-115]</name>
+      <steps/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9340-MainThread"/>
+        <label name="host" value="MacBook-Pro-Alexander.local"/>
+      </labels>
+      <attachments>
+        <attachment source="86bc17b7-8068-43a8-aa27-d75588641400-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="370492a1-e861-45d4-b4cf-699f69efaf2a-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+    </test-case>
+    <test-case start="1486405209908" status="passed" stop="1486405224509">
+      <description>Main test method, that is parametrized with
+    different sets of values from csv file;
+    Input values: 'from_currency' that is our cash currency,
+    'to_currency' that is the currency we want to have,
+    'value' that is our cash amount.
+    Expected result: all elements are found on the page,
+    cash value after suggested exchange matches the calculations
+    made using exchange rates on the page.
+    </description>
+      <name>test_currency_exchange[RUR-USD-343.5]</name>
+      <steps/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9340-MainThread"/>
+        <label name="host" value="MacBook-Pro-Alexander.local"/>
+      </labels>
+      <attachments>
+        <attachment source="0ffe40d7-321f-4ed6-be64-dec5dea3812f-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="9ce624aa-9b67-43cd-9849-3f6104d815d8-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+    </test-case>
+    <test-case start="1486405224611" status="passed" stop="1486405238841">
+      <description>Main test method, that is parametrized with
+    different sets of values from csv file;
+    Input values: 'from_currency' that is our cash currency,
+    'to_currency' that is the currency we want to have,
+    'value' that is our cash amount.
+    Expected result: all elements are found on the page,
+    cash value after suggested exchange matches the calculations
+    made using exchange rates on the page.
+    </description>
+      <name>test_currency_exchange[EUR-RUR-324,7]</name>
+      <steps/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9340-MainThread"/>
+        <label name="host" value="MacBook-Pro-Alexander.local"/>
+      </labels>
+      <attachments>
+        <attachment source="0a92afaa-2fae-40c2-8e5a-5e1140247141-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="839ebd02-f0d9-495a-aea2-c1aa632050fd-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

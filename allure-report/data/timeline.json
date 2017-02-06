@@ -1,0 +1,42 @@
+{
+  "hosts" : [ {
+    "title" : "MacBook-Pro-Alexander.local",
+    "threads" : [ {
+      "title" : "9340-MainThread",
+      "testCases" : [ {
+        "uid" : "d47ce50b0e3532a5",
+        "name" : "test_currency_exchange[USD-RUR-115]",
+        "title" : "Test currency exchange [USD-RUR-115]",
+        "time" : {
+          "start" : 1486405196074,
+          "stop" : 1486405209777,
+          "duration" : 13703
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fbe491a1663e161",
+        "name" : "test_currency_exchange[RUR-USD-343.5]",
+        "title" : "Test currency exchange [RUR-USD-343.5]",
+        "time" : {
+          "start" : 1486405209908,
+          "stop" : 1486405224509,
+          "duration" : 14601
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5d5c6c7f9de57eab",
+        "name" : "test_currency_exchange[EUR-RUR-324,7]",
+        "title" : "Test currency exchange [EUR-RUR-324,7]",
+        "time" : {
+          "start" : 1486405224611,
+          "stop" : 1486405238841,
+          "duration" : 14230
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

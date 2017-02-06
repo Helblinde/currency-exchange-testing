@@ -1,0 +1,59 @@
+{
+  "uid" : "fbe491a1663e161",
+  "name" : "test_currency_exchange[RUR-USD-343.5]",
+  "title" : "Test currency exchange [RUR-USD-343.5]",
+  "time" : {
+    "start" : 1486405209908,
+    "stop" : 1486405224509,
+    "duration" : 14601
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Main test method, that is parametrized with\n    different sets of values from csv file;\n    Input values: 'from_currency' that is our cash currency,\n    'to_currency' that is the currency we want to have,\n    'value' that is our cash amount.\n    Expected result: all elements are found on the page,\n    cash value after suggested exchange matches the calculations\n    made using exchange rates on the page.\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "22483630d026346d",
+    "name" : "currency_exchange_testing",
+    "title" : "Currency exchange testing"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "0ffe40d7-321f-4ed6-be64-dec5dea3812f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 24,
+    "uid" : "847103a58a029c63"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "9ce624aa-9b67-43cd-9849-3f6104d815d8-attachment.txt",
+    "type" : "text/plain",
+    "size" : 159,
+    "uid" : "f0dc663d304856d9"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "9340-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Alexander.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "currency_exchange_testing"
+  } ],
+  "parameters" : [ ]
+}

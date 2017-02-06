@@ -1,0 +1,6 @@
+Default input field value: 100
+Our input field value: 115
+Current exchange rates: 57.44 60.56
+Result currency: RUR
+Expected result: 6605.6
+Actual result: 6605.6
