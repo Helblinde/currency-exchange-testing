@@ -59,5 +59,5 @@ class ConverterPage(BasePage):
 
     def get_final_result(self):
         """Return formatted money amount after suggested exchange"""
-        return round((float(self.driver.find_element(*ConverterPageLocators.RESULT_VALUE).
-                            text.replace(' ', '').replace(',', '.'))), 2)
+        return self.driver.find_element(*ConverterPageLocators.RESULT_VALUE).\
+            text.replace(' ', '').replace(',', '.')

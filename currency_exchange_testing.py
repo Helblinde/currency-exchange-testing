@@ -2,6 +2,7 @@ import pytest
 from importing_csv import importing_csv
 from driver_fixture import driver
 from pages import ConverterPage
+from precise_result import precise_result
 
 
 @pytest.mark.parametrize(*importing_csv())
@@ -47,9 +48,11 @@ def test_currency_exchange(from_currency, to_currency, value, driver):
     # choosing type of exchange calculation (from RUR or to RUR)
     # and calculate expected money amount
     if to_currency == 'RUR':
-        expected_result = round(float(value.replace(',', '.')) * float(buy_exchange_rate), 2)
+        expected_result = precise_result(str(float(value.replace(',', '.'))
+                                             * float(buy_exchange_rate)))
     if from_currency == 'RUR':
-        expected_result = round(float(value.replace(',', '.')) / float(sell_exchange_rate), 2)
+        expected_result = precise_result(str(float(value.replace(',', '.'))
+                                             / float(sell_exchange_rate)))
 
     # check that result currency equals desirable currency
     final_currency = converter_page.get_final_currency()
